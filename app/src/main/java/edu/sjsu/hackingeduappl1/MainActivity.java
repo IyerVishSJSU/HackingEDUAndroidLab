@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             });
             AlchemyLanguage service = new AlchemyLanguage();
-            service.setApiKey("7353b733912ca2a11993235e0906d65bd47ab055");
+            service.setApiKey("API Key");
 
             Map<String, Object> params = new HashMap<String, Object>();
             params.put(AlchemyLanguage.TEXT, editText.getText());
